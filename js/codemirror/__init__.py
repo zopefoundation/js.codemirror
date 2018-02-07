@@ -1,9 +1,20 @@
-from fanstatic import Library, Resource
+from fanstatic import Library, Resource, Group
 
 
 library = Library('codemirror', 'resources')
 
 
-codemirror = Resource(
+codemirror_js = Resource(
     library,
-    'css/zopetello.css')
+    'lib/codemirror.js')
+
+
+codemirror_css = Resource(
+    library,
+    'lib/codemirror.css')
+
+
+codemirror = Group([
+    codemirror_js,
+    codemirror_css,
+])

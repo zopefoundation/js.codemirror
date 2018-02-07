@@ -15,8 +15,8 @@ Update the package
 
 This package contains the whole source code release of `CodeMirror`_ below ``js/codemirror/resources``. To update:
 
-* Extract the release archive to ``js/codemirror/resources``
+* Download the release from the website or npm. (github is not the release channel of the project and lacks the ``codemirror.js``)
 
-* Update the list of possible modes if necessary.
+* Extract the release archive to ``js/codemirror/resources``
 
 * Add an entry to changelog and update the version number.
