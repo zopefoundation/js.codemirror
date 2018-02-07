@@ -1,0 +1,3 @@
+recursive-include zmi *.*
+include *.txt
+include *.rst
