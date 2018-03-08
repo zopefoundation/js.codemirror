@@ -1,10 +1,9 @@
 js.codemirror
 *************
 
-Notice
-======
+.. warning::
 
-This repository is still work in progress. As the integration of JS-Files in Zope was finally not done with fanstatic, there is currently no initiative for this. If you want to help out, please submit a PR.
+    This repository is still work in progress. As the integration of JS-Files in Zope was finally not done with fanstatic, there is currently no initiative for this. If you want to help out, please submit a PR.
 
 
 Introduction
